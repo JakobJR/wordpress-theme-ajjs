@@ -1,4 +1,4 @@
-<h1>cms-mandatory1</h1>
+<h1>WordPress + Laravel</h1>
 <h3>Setup</h3>
 <p style="margin-bottom:0;font-weight:600">Step 1:</p>
 <p style="margin-top:0">Download and unzip content of repo: <a href="https://github.com/JakobJR/wordpress-theme-ajjs">wordpress-theme-ajjs</a></p>
