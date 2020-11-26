@@ -55,3 +55,55 @@ function mandatory_custom_logo_setup() {
    /****************************************/
 
 
+// add_action('init', 'register_recipe');
+// function register_recipe() {
+//     register_post_type('recipe', [
+//         'label' => 'Recipes',
+//         'public' => true,
+//         'capability_type' => 'post'
+//     ]);
+// }
+
+// function get_recipes_from_api() {
+    
+// }
+
+function custom_post_type() {
+    $labels = array(
+        'name' => 'Recipes',
+        'singular_name' => 'Recipe',
+        'add_new' => 'Add Item',
+        'all_items' => 'All Items',
+        'add_new_item' => 'Add Item',
+        'edit_item' => 'Edit Item',
+        'new_item' => 'New Item',
+        'view_item' => 'View Item',
+        'search_item' => 'Search Recipes',
+        'not_found' => 'No items found',
+        'not_found_in_trash' => 'No items found in trash',
+        'parent_item_colon' => 'Parent Item'
+    );
+    $args = array(
+        'labels' => $labels,
+        'public' => true,
+        'has_achive' => true,
+        'publicly_queryable' => true,
+        'query_var' => true,
+        'rewrite' => true,
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'supports' => array(
+            'title',
+            'editor',
+            'excerpt',
+            'thumbnail',
+            'revisions',
+        ),
+        'taxonomies' => array('category', 'post_tag'),
+        'menu_position' => 5,
+        'exclude_from_search' => false
+    );
+    register_post_type('recipe', $args);
+}
+
+add_action('init', 'custom_post_type');
