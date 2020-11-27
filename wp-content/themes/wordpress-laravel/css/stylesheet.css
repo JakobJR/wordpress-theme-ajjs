@@ -195,6 +195,32 @@ nav .menu-items ul li a:hover::before {
   font-family: 'Libre Baskerville', serif;
   max-width: 600px;
   margin-top: 0;
+  margin-bottom: 30px;
+}
+.single-page-section p {
+  font-family: "Mulish",sans-serif;
+  margin-bottom: 25px;
+}
+.single-page-section .top-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.single-page-section .top-wrapper .top-img {
+  height: 550px;
+  width: 45%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.single-page-section .top-wrapper .top-info {
+  width: 50%;
+}
+.single-page-section .top-wrapper .top-info h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.single-page-section .top-wrapper .top-info ul li {
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

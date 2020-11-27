@@ -219,5 +219,40 @@ nav {
         font-family: 'Libre Baskerville', serif;
         max-width: 600px;
         margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-family: "Mulish",sans-serif;
+        margin-bottom: 25px;
+    }
+
+    .top-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .top-img {
+            height: 550px;
+            width: 45%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+
+        .top-info {
+            width: 50%;
+
+            h3 {
+                font-size: 28px;
+                font-weight: 400;
+            }
+
+            ul {
+
+                li {
+                    margin-bottom: 15px;
+                }
+            }
+        }
     }
 }
