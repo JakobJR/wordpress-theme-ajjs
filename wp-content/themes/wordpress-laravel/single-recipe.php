@@ -1,4 +1,8 @@
-<?php get_header();
+<?php
+if(!isset($_GET['id'])) {
+    header('Location: ../../');
+}
+get_header();
 require_once(__DIR__.'/api/api-get-ingredients.php');
 require_once(__DIR__.'/api/api-get-specific-recipe.php');
 require_once(__DIR__.'/api/api-get-instructions.php');
