@@ -223,4 +223,26 @@ nav .menu-items ul li a:hover::before {
   margin-bottom: 15px;
 }
 
+.instructions-wrapper h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.instructions-wrapper span {
+  font-weight: 700;
+}
+.instructions-wrapper span::before {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.instructions-wrapper span::after {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  content: '';
+  display: inline-block;
+}
+
 /*# sourceMappingURL=stylesheet.css.map */
