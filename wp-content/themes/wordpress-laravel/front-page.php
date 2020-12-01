@@ -27,19 +27,6 @@ require_once(__DIR__.'/api/api-get-all-recipes.php');
         <?php $i++;}
         } 
         ?>
-
-        <a href="#">
-            <div class="top-item">      
-                <div class="image" style="background-image: url(http://localhost/wordpress-theme-ajjs/wp-content/themes/wordpress-laravel/img/dish-1.jpg)"></div>
-                <div class="text"><p>Chicken Masala with with rice and fresh vegetables</p></div>  
-            </div>
-        </a>
-        <a href="#">
-        <div class="top-item">
-        <div class="image" style="background-image: url(http://localhost/wordpress-theme-ajjs/wp-content/themes/wordpress-laravel/img/dish-1.jpg)"></div>
-            <div class="text"><p>Chicken Masala with with rice and fresh vegetables</p></div>
-        </div>
-        </a>
     </div>
 </div>
 
