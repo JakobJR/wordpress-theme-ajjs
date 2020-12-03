@@ -226,6 +226,7 @@ nav .menu-items ul li a:hover::before {
 .instructions-wrapper h3 {
   font-size: 28px;
   font-weight: 400;
+  margin-top: 50px;
 }
 .instructions-wrapper span {
   font-weight: 700;

@@ -38,7 +38,7 @@ register_nav_menus(
 /* Adding custom logo functionality & favicon */
 /****************************************/
 
-function mandatory_custom_logo_setup() {
+function custom_logo_setup() {
     $defaults = array(
     'height'      => 'auto',
     'width'       => 400,
@@ -49,7 +49,7 @@ function mandatory_custom_logo_setup() {
     );
     add_theme_support( 'custom-logo', $defaults );
    }
-   add_action( 'after_setup_theme', 'mandatory_custom_logo_setup' );
+   add_action( 'after_setup_theme', 'custom_logo_setup' );
 
    /****************************************/
    /****************************************/
