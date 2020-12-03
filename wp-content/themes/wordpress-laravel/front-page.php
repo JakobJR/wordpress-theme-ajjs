@@ -18,7 +18,7 @@ require_once(__DIR__.'/api/api-get-all-recipes.php');
             foreach ($key as $item => $value){ 
                 if($i==4) break;
                 ?>
-                <a href="recipe/19/?id=<?php echo $value->id ?>">
+                <a href="recipe/recipe/?id=<?php echo $value->id ?>">
                     <div class="top-item">      
                         <div class="image" style="background-image: url(<?php echo $value->imageUrl?>)"></div>
                         <div class="text"><p><?php echo $value->title?></p></div>
