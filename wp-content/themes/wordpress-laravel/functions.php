@@ -50,23 +50,7 @@ function custom_logo_setup() {
     add_theme_support( 'custom-logo', $defaults );
    }
    add_action( 'after_setup_theme', 'custom_logo_setup' );
-
-   /****************************************/
-   /****************************************/
-
-
-// add_action('init', 'register_recipe');
-// function register_recipe() {
-//     register_post_type('recipe', [
-//         'label' => 'Recipes',
-//         'public' => true,
-//         'capability_type' => 'post'
-//     ]);
-// }
-
-// function get_recipes_from_api() {
-    
-// }
+   
 
 function custom_post_type() {
     $labels = array(
