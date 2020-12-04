@@ -50,7 +50,7 @@ function custom_logo_setup() {
     add_theme_support( 'custom-logo', $defaults );
    }
    add_action( 'after_setup_theme', 'custom_logo_setup' );
-   
+
 
 function custom_post_type() {
     $labels = array(
